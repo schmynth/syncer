@@ -76,11 +76,17 @@ def addDirectory():
     if os.path.isdir(source):
         print("Source directory", source, "added.")
     else:
-        print("The directory you entered does not exist on this system. Do you want to create it? y/n")
-        create=input()
-        if create == 'y':
-            os.mkdir(source)
-            print("Source directory", source, "created and added to directories file.")
+        create='empty'
+        while create!='y' and create!='n':
+            print("The directory you entered does not exist on this system. Do you want to create it? y/n")
+            create=input()
+            if create == 'y':
+                os.mkdir(source)
+                print("Source directory", source, "created and added to directories file.")
+            elif create == 'n':
+                print("Creation of directory cancelled.")
+            else:
+                print("Wrong input. y/n:")            
     dest = input("Input your destination directory:")
     if os.path.isdir(dest):
         print("Destination directory", dest, "added.")
