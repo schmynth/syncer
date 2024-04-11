@@ -24,6 +24,7 @@ def help():
     Command:    Explanation:    
     
     add         Add a directory to directories file.
+    rm          Removes a directory from the directories file.
     read        Read a directories file.
     sync -a     Sync all directories specified in directories file.
     help        Show this help message."""
