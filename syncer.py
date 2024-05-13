@@ -42,7 +42,7 @@ while command != 'exit':
         m.List(directories)
     elif command =='help':
         m.help()  
-    elif command =='exit':
+    elif command =='exit' or 'quit':
         break
     else:
         print("Command unknown.")
