@@ -18,7 +18,7 @@ def welcome():
     
 def help():
     help = """  This software syncs directories specified in a file called "directories".
-    You can create this file yourself and specify directories with the sydntax 'index source destination' seperated by tab.
+    You can create this file yourself and specify directories with the syntax 'index source destination' seperated by tab.
     Alternatively this program can create the file.
     
     Command:    Explanation:    
