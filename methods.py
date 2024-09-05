@@ -67,7 +67,7 @@ def List(directories):
     if FileExists == True:
         print("Listing all directories in directories file:")
         for directory in directories:
-            print("Source directory No.",directory[0], ":", directory[1], "destination directory:", directory[2])
+            print("Source directory No.",directory[0], ":", directory[1], "destination directory No.", directory[0], ":", directory[2])
     else:
         print("No directories file found.")    
            
