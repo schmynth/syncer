@@ -8,10 +8,15 @@ You can create this file yourself and specify directories with the syntax 'index
 Alternatively this program can create the file.
 
 
-    Command:    Explanation:    
+
+Command:    Explanation:    
     
-    ´add´         Add a directory to directories file.
-    ´rm´          Removes a directory from the directories file.
-    read        Read a directories file.
-    sync -a     Sync all directories specified in directories file.
-    help        Show this help message.
+´add´         Add a directory to directories file.
+´rm´          Removes a directory from the directories file.
+read        Read a directories file.
+sync -a     Sync all directories specified in directories file.
+help        Show this help message.
+
+
+
+
