@@ -121,7 +121,3 @@ def Sync(directories, n):
     #try:
     subprocess.run(['rsync', '-va', directories[n][1], directories[n][2]]) 
     #except
-    
-      
-# # todo:
-# # actual syncing
